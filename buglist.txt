@@ -1,0 +1,14 @@
+1. isEmpty: this method is returning boolean true when there are elements existing in the Linkedlist.
+
+2. addBack: this method correctly update the size of the Linkedlist. It does insert element to the LinkedList,
+but the element is not inserted to the back of the list, instead to the front of the list when this method is called.
+
+3.removeBack: this method doesn't remove the element when there is only one element in the LinkedList(return false),
+and this method neither correctly update the size of the LinkedList nor correctly remove element from the LinkedList when there are more than one element in the list.
+This method never returns true.
+
+4.removeFront: this method doesn't remove the element when there is only one element in the LinkedList(return false),
+and this method neither correctly update the size of the LinkedList nor correctly remove element from the LinkedList when there are more than one element in the list.
+This method never returns true.
+
+5.~LinkedListOfInts: destructor does not correctly delete all the nodes from the list when any LinkedListOfInts object is out of scope.
